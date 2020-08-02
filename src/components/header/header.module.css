@@ -1,0 +1,36 @@
+.header {
+    background-color: #005B4F;
+    color: #fff;
+    padding: 32px 0 40px; 
+    grid-area: header;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    margin: 0 0 16px;
+}
+
+.subheading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    margin: 0 0 16px 0;
+    max-width: 297px;
+}
+
+.text {
+    margin: 8px 0;
+    max-width: 677px;
+}

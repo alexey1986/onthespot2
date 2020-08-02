@@ -1,0 +1,46 @@
+.buttonLink {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.buttonLink:hover,
+.buttonLink:focus,
+.buttonLink:active {
+    border: 0;
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #00897B;
+    padding: 6px;
+    margin: 0;
+    text-decoration: none;
+    background: #00897B;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5;
+    min-width: 90px;
+}
+
+.button:hover,
+.button:focus {
+    background: #FFFFFF;
+    border: 1px solid #00897B;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #00897B;
+}
+
+.button:focus {
+    outline: none;
+}
