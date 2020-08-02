@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1",
     "selectly": "^0.5.0"
   },
+  "repository" : {"type": "git", "url": "https://github.com/alexey1986/onthespot.git"},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
