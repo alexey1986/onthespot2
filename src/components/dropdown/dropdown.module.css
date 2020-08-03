@@ -39,6 +39,7 @@
 .icon {
     fill: #c4c4c4;
     transition: transform 0.4s ease;
+    flex-shrink: 0;
 }
 
 .active .icon {
