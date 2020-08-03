@@ -5,7 +5,7 @@ import {ReactComponent as ReactIcon} from './icon.svg';
 
 function Product() {
   return (
-    <div className={styles.item}>
+    <li className={styles.item}>
         <div className={styles.image}></div>
         <div className={styles.details}>
           <h4 className={styles.name}>Is simply</h4>
@@ -26,7 +26,7 @@ function Product() {
             <div className={styles.tooltip}>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</div>           
           </Button>
         </div>
-    </div>
+    </li>
   );
 }
 
