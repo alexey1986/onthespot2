@@ -3,8 +3,8 @@ import styles from './dropdown.module.css';
 import {ReactComponent as ReactIcon} from './icon.svg';
 
 export default class Dropdown extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             displayMenu: false

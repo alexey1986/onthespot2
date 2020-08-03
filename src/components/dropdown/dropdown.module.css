@@ -90,14 +90,12 @@
 
 .checkbox:checked + label:after {
     content: '';
-    width: 5px;
-    height: 3px;
     position: absolute;
-    top: 6px;
-    left: 1px;
-    border: 1px solid #fff;
-    border-top: none;
-    border-right: none;
-    background: transparent;
-    transform: rotate(-45deg);
+    left: 3px;
+    top: 4px;
+    width: 3px;
+    height: 5px;
+    border: solid #ffffff;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
 }

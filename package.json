@@ -12,7 +12,10 @@
     "react-scripts": "3.4.1",
     "selectly": "^0.5.0"
   },
-  "repository" : {"type": "git", "url": "https://github.com/alexey1986/onthespot.git"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexey1986/onthespot.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "normalize.css": "^8.0.1",
     "webfontloader": "^1.6.28"
   }
